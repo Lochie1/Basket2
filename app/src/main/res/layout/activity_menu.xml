@@ -9,38 +9,37 @@
     android:id="@+id/basket">
 
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/messages"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="-250dp"
-        android:layout_marginBottom="-200dp"
-        android:layout_marginRight="-200dp"
-        android:onClick="messages"
-        android:longClickable="true"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp" />
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/Messages"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="320dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="200dp"
+        android:background="@android:color/transparent"
+        android:onClick="messages" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button"
-        android:layout_alignBottom="@+id/messages"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="41dp"
-        android:onClick="email"/>
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/email"
+        android:layout_alignTop="@+id/Messages"
+        android:layout_marginStart="57dp"
+        android:layout_marginBottom="330dp"
+        android:layout_marginLeft="200dp"
+        android:onClick="email"
+        android:background="@android:color/transparent" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button2"
-        android:layout_alignParentTop="true"
-        android:layout_toStartOf="@+id/button"
-        android:layout_marginTop="-40dp"
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageButton5"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="139dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="260dp"
+        android:background="@android:color/transparent"
         android:onClick="settings" />
 </RelativeLayout>

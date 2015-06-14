@@ -1,4 +1,4 @@
-package com.basket.tmail.basket2;
+package com.basket.tmail.basket;
 
 import android.app.Activity;
 import android.content.Intent;
